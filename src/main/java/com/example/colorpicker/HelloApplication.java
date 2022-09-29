@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) {
         // declaración de los elementos. Un campo de texto y el elemento ColorPicker
         Label l = new Label("no hay color elegido ");
-        l.setStyle("-fx-background-color: #ccccff;");
+        l.setStyle("-fx-background-color: #e6e6e6;");
         ColorPicker colorPicker = new ColorPicker();
 
         // los elementos estructorados en HBox y VBox
